@@ -12,6 +12,7 @@ from src.exception import CustomException
 from src.logger import logging
 import os
 
+
 from src.utils import save_object
 
 @dataclass
@@ -64,7 +65,6 @@ class DataTransformation:
                 ("cat_pipelines",cat_pipeline,categorical_columns)
 
                 ]
-
 
             )
 
